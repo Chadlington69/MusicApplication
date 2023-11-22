@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MeloBeats.Controllers
 {
-    public class HomeController : Controller
+    public class ContactController : Controller
     {
         public IActionResult Index()
         {

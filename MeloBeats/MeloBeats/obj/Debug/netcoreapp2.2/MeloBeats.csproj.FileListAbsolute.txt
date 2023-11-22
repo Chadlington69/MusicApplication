@@ -26,3 +26,4 @@ C:\Users\chadl\source\repos\Chadlington69\MusicApplication\MeloBeats\MeloBeats\o
 C:\Users\chadl\source\repos\Chadlington69\MusicApplication\MeloBeats\MeloBeats\obj\Debug\netcoreapp2.2\MeloBeats.RazorTargetAssemblyInfo.cs
 C:\Users\chadl\source\repos\Chadlington69\MusicApplication\MeloBeats\MeloBeats\obj\Debug\netcoreapp2.2\MeloBeats.Views.pdb
 C:\Users\chadl\source\repos\Chadlington69\MusicApplication\MeloBeats\MeloBeats\obj\Debug\netcoreapp2.2\MeloBeats.csproj.CopyComplete
+C:\Users\chadl\source\repos\Chadlington69\MusicApplication\MeloBeats\MeloBeats\obj\Debug\netcoreapp2.2\Razor\Views\Contact\Index.cshtml.g.cs
