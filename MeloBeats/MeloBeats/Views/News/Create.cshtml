@@ -1,0 +1,33 @@
+﻿@addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers"
+@model MeloBeats.Models.NewsPost
+@{
+    Layout = "_Layout";
+}
+<div class="main-frame">
+   
+    <fieldset>
+        <h1 class="lr-heading">Create a New News Post</h1>
+        <form asp-action="Create" asp-controller="News">
+
+            <div asp-validation-summary="ModelOnly" class="input-validation-error"></div>
+
+            <div class="form-item">
+                <label asp-for="Title"></label>
+                <input asp-for="Title" class="form-control" placeholder="News post title" />
+                <span asp-validation-for="Title"></span>
+            </div>
+
+            <div class="form-item">
+                <label asp-for="Body"></label>
+                <textarea asp-for="Body" class="form-control body-text" placeholder="News post content"></textarea>
+                <span asp-validation-for="Body"></span>
+            </div>
+
+            <div class="center-content">
+                <button class="submit-btn" type="submit">Create Post</button>
+            </div>
+
+        </form>
+
+    </fieldset>
+</div>

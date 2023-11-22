@@ -1,0 +1,18 @@
+﻿@model MeloBeats.Models.CompetitionPost
+@inject MeloBeats.Models.FormattingService Format
+
+<article class="main-article">
+    <h1 class="main-heading">
+        @Html.ActionLink(Model.Name, "Post", "Competition",
+            new { year = Model.Date.Year, month = Model.Date.Month, key = Model.Key }
+        )
+    </h1>
+
+
+    <div class="details">
+        <b>Date: <span>@Format.AsReadableDate(Model.Date),</span> Location: <span></span>@Model.Location<span> By: @Model.Author</span></b>
+    </div>
+    <div class="content">
+        @Model.Body
+    </div>
+</article>

@@ -27,6 +27,14 @@ namespace MeloBeats
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddTransient<FormattingService>();
+
+            services.AddDbContext<NewsDataContext>(options =>
+            {
+                var connectionString = configuration.GetConnectionString("NewsDataContext");
+                options.UseSqlServer(connectionString);
+            });
+
             services.AddDbContext<IdentityDataContext>(options =>
             {
                 var connectionString = configuration.GetConnectionString("IdentityDataContext");
