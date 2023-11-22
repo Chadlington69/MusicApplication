@@ -40,6 +40,7 @@ body {
 
 .main-frame {
     background-color: #fff;
+    padding: 10px;
 }
 
 h3 {
@@ -58,3 +59,17 @@ footer {
     background-size: cover;
     color: #fff;
 }
+
+
+.nav-white {
+    color: #fff;
+}
+
+.logout {
+    padding-left: 10px;
+}
+
+    .logout:hover {
+        text-decoration: none;
+        color: #ebebeb;
+    }
