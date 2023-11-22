@@ -35,6 +35,14 @@ namespace MeloBeats
                 options.UseSqlServer(connectionString);
             });
 
+            services.AddDbContext<CompetitionDataContext>(options =>
+            {
+                var connectionString = configuration.GetConnectionString("CompetitionDataContext");
+                options.UseSqlServer(connectionString);
+            });
+
+
+
             services.AddDbContext<IdentityDataContext>(options =>
             {
                 var connectionString = configuration.GetConnectionString("IdentityDataContext");

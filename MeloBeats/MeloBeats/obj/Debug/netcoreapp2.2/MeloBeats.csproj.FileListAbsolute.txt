@@ -33,3 +33,7 @@ C:\Users\chadl\source\repos\Chadlington69\MusicApplication\MeloBeats\MeloBeats\o
 C:\Users\chadl\source\repos\Chadlington69\MusicApplication\MeloBeats\MeloBeats\obj\Debug\netcoreapp2.2\Razor\Views\News\Index.cshtml.g.cs
 C:\Users\chadl\source\repos\Chadlington69\MusicApplication\MeloBeats\MeloBeats\obj\Debug\netcoreapp2.2\Razor\Views\News\Post.cshtml.g.cs
 C:\Users\chadl\source\repos\Chadlington69\MusicApplication\MeloBeats\MeloBeats\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_NewsPost.cshtml.g.cs
+C:\Users\chadl\source\repos\Chadlington69\MusicApplication\MeloBeats\MeloBeats\obj\Debug\netcoreapp2.2\Razor\Views\Competition\Create.cshtml.g.cs
+C:\Users\chadl\source\repos\Chadlington69\MusicApplication\MeloBeats\MeloBeats\obj\Debug\netcoreapp2.2\Razor\Views\Competition\index.cshtml.g.cs
+C:\Users\chadl\source\repos\Chadlington69\MusicApplication\MeloBeats\MeloBeats\obj\Debug\netcoreapp2.2\Razor\Views\Competition\Post.cshtml.g.cs
+C:\Users\chadl\source\repos\Chadlington69\MusicApplication\MeloBeats\MeloBeats\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CompetitionPost.cshtml.g.cs
